@@ -70,7 +70,7 @@ class _IntroScreenState extends State<IntroScreen> {
                       child: StringHelper.getNotoSansText("SKIP", fontSize: IntroSkipSize,color: skipColor),
                       onTap: () {
                         StringHelper().setPreferenceSplash(false);
-                        Get.offAndToNamed(Routes.mobileNumberPage);
+                        Get.offAndToNamed(Routes.loginScreen);
                       },
                     ) : Container(),
                   ],
@@ -109,7 +109,7 @@ class _IntroScreenState extends State<IntroScreen> {
                   onTap: () {
                     if(_current == 2){
                       StringHelper().setPreferenceSplash(false);
-                      Get.offAndToNamed(Routes.mobileNumberPage);
+                      Get.offAndToNamed(Routes.loginScreen);
                     }
                     _controller.animateToPage(_current + 1, duration: const Duration(milliseconds: 400),curve: Curves.easeIn);
                   },

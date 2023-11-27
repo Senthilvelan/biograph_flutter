@@ -7,6 +7,7 @@ import 'package:flutter_local_notifications/flutter_local_notifications.dart';
 import 'package:get/get.dart';
 import 'app/bindings/home_binding.dart';
 import 'app/routes/app_pages.dart';
+import 'app/ui/splash/splash_page.dart';
 import 'app/utils/sizer.dart';
 
 
