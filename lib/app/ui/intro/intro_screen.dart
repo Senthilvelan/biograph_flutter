@@ -8,6 +8,7 @@ import 'package:get/get.dart';
 
 import '../../routes/app_pages.dart';
 import '../../utils_res/color_helper.dart';
+import '../../utils_res/font_helper.dart';
 
 
 final List<Map<String,dynamic>> imgList = [

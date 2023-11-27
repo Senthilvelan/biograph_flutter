@@ -4,7 +4,9 @@ import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
 import 'package:get/get.dart';
 
+import '../utils/widgets/background_main.dart';
 import 'color_helper.dart';
+import 'font_family.dart';
 
 class StylesHelper {
   /*

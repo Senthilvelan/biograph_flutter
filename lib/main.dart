@@ -5,6 +5,7 @@ import 'package:firebase_messaging/firebase_messaging.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_local_notifications/flutter_local_notifications.dart';
 import 'package:get/get.dart';
+import 'app/bindings/home_binding.dart';
 import 'app/routes/app_pages.dart';
 import 'app/utils/sizer.dart';
 

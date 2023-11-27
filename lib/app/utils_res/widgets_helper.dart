@@ -7,6 +7,7 @@ import 'package:get/get.dart';
 
 import '../app.dart';
 import 'color_helper.dart';
+import 'font_family.dart';
 import 'styles_helper.dart';
 
 class WidgetsHelper {
