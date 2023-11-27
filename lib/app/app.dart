@@ -370,13 +370,13 @@ class App {
 
   static bool challengersVisitedFirstTimeForAppSession = false;
   static int challengersUserListCount = 0;
-
-  static String challengersTermsConditionsLink =
-      "https://fitmint.freshdesk.com/support/solutions/articles/89000016692-challenges-t-cs";
-  static String challengersAdditionalFittLink =
-      "https://fitmint.freshdesk.com/support/solutions/articles/89000016695-how-are-additional-fitt-rewards-calculated-";
-  static String challengersHowItWorksLink =
-      "https://fitmint.freshdesk.com/support/solutions/articles/89000016694-how-challenges-work-on-fitmint-";
+  //
+  // static String challengersTermsConditionsLink =
+  //     "https://fitmint.freshdesk.com/support/solutions/articles/89000016692-challenges-t-cs";
+  // static String challengersAdditionalFittLink =
+  //     "https://fitmint.freshdesk.com/support/solutions/articles/89000016695-how-are-additional-fitt-rewards-calculated-";
+  // static String challengersHowItWorksLink =
+  //     "https://fitmint.freshdesk.com/support/solutions/articles/89000016694-how-challenges-work-on-fitmint-";
 
   // static Future<String?> getDeviceId() async {
   //   final DeviceInfoPlugin deviceInfoPlugin = DeviceInfoPlugin();
