@@ -442,6 +442,9 @@ const Color Grey = Colors.grey;
 const Color Blue = Color(0x315BD6);
 const Color TextFieldBlueBorderColor = Color(0xFF315BD6);
 const Color textColorDim = Color(0xFF4B768B);
+const Color textColorBlack = Color(0xff2d2d2d);
+const Color primaryGreen = Color(0xff34A853);
+
 
 const Color GreyLight = Color(0xFFDCDCDC);
 const Color greyHeader = Color(0xFFFAFAFA);
