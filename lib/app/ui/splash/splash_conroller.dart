@@ -37,17 +37,17 @@ class SplashController extends GetxController {
       new FlutterLocalNotificationsPlugin();
 
   void setChannel() async {
-    var initializationSettingsAndroid =
-        new AndroidInitializationSettings('@mipmap/ic_launcher');
+    // var initializationSettingsAndroid =
+    //     new AndroidInitializationSettings('@mipmap/ic_launcher');
+    //
+    // var initializationSettingsIOS = new IOSInitializationSettings(
+    //     onDidReceiveLocalNotification: onDidRecieveLocalNotification);
+    //
+    // var initializationSettings = new InitializationSettings(
+    //     android: initializationSettingsAndroid, iOS: initializationSettingsIOS);
 
-    var initializationSettingsIOS = new IOSInitializationSettings(
-        onDidReceiveLocalNotification: onDidRecieveLocalNotification);
-
-    var initializationSettings = new InitializationSettings(
-        android: initializationSettingsAndroid, iOS: initializationSettingsIOS);
-
-    flutterLocalNotificationsPlugin.initialize(initializationSettings,
-        onSelectNotification: onSelectNotification);
+    // flutterLocalNotificationsPlugin.initialize(initializationSettings,
+    //     onSelectNotification: onSelectNotification);
 
     FirebaseMessaging.instance
         .requestPermission(sound: true, badge: true, alert: true);
@@ -82,20 +82,20 @@ class SplashController extends GetxController {
       bodyNotify = '${message['message']}';
     }
 
-    var androidPlatformChannelSpecifics = new AndroidNotificationDetails(
-        '$androidNotifyChannel', '$androidNotifyChannel', '',
-        importance: Importance.max, priority: Priority.high);
-    var iOSPlatformChannelSpecifics = new IOSNotificationDetails();
-    var platformChannelSpecifics = new NotificationDetails(
-        android: androidPlatformChannelSpecifics,
-        iOS: iOSPlatformChannelSpecifics);
-    await flutterLocalNotificationsPlugin.show(
-      NotificationLogId,
-      title,
-      bodyNotify,
-      platformChannelSpecifics,
-      payload: '${messageData.toJson()}',
-    );
+    // var androidPlatformChannelSpecifics = new AndroidNotificationDetails(
+    //     '$androidNotifyChannel', '$androidNotifyChannel', '',
+    //     importance: Importance.max, priority: Priority.high);
+    // var iOSPlatformChannelSpecifics = new IOSNotificationDetails();
+    // var platformChannelSpecifics = new NotificationDetails(
+    //     android: androidPlatformChannelSpecifics,
+    //     iOS: iOSPlatformChannelSpecifics);
+    // await flutterLocalNotificationsPlugin.show(
+    //   NotificationLogId,
+    //   title,
+    //   bodyNotify,
+    //   platformChannelSpecifics,
+    //   payload: '${messageData.toJson()}',
+    // );
   }
 
   Future onSelectNotification(String? payload) async {
