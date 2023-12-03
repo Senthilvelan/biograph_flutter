@@ -12,7 +12,7 @@ class AppPages {
     ),
     GetPage(
       name: Routes.introScreen,
-      page: () => IntroScreen(),
+      page: () => const IntroScreen(),
     ),
   ];
 }

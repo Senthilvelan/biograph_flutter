@@ -104,6 +104,99 @@ flutter:
   # the material Icons class.
   uses-material-design: true
 
+  assets:
+    - assets/
+    - assets/animations/
+
+  fonts:
+    - family: impact
+      fonts:
+        - asset: fonts/impact.ttf
+    #    - family: hkg_wide
+    #      fonts:
+    #        - asset: fonts/new_fonts/hkg_wide.otf
+    - family: neue
+      fonts:
+        - asset: fonts/neue_metana_bold.otf
+        - asset: fonts/neue_metana_regular.otf
+    - family: n27
+      fonts:
+        - asset: fonts/n27.ttf
+        - asset: fonts/n27_italic.otf
+    - family: inter
+      fonts:
+        - asset: fonts/inter_bold.otf
+        - asset: fonts/inter_regular.otf
+    - family: nothing_you
+      fonts:
+        - asset: fonts/nothing_you_can_do.ttf
+    - family: Roboto
+      fonts:
+        - asset: fonts/roboto_black.ttf
+        - asset: fonts/roboto_bold.ttf
+        - asset: fonts/roboto_medium.ttf
+        - asset: fonts/roboto_regular.ttf
+
+
+    #    New Fonts
+    - family: ovliver
+      fonts:
+        - asset: fonts/new_fonts/oliver.ttf
+          weight: 400
+
+    - family: mono_sans_bw
+      fonts:
+        - asset: fonts/new_fonts/mona_sans_bold_wide.otf
+          weight: 700
+
+    - family: mono_sans_bi
+      fonts:
+        - asset: fonts/new_fonts/mona_sans_bold_wide_italic.otf
+          weight: 700
+          style: italic
+
+    - family: mono_sans_ebw
+      fonts:
+        - asset: fonts/new_fonts/mona_sans_extrabold_wide.otf
+          weight: 800
+
+    - family: mono_sans_ebi
+      fonts:
+        - asset: fonts/new_fonts/mona_sans_extra_bold_wide_italic.otf
+          weight: 800
+          style: italic
+
+    - family: mono_sans_900
+      fonts:
+        - asset: fonts/new_fonts/mona_sans_900.ttf
+          weight: 900
+
+    - family: inter_black
+      fonts:
+        - asset: fonts/new_fonts/inter_black.ttf
+          weight: 900
+
+    - family: inter_bold
+      fonts:
+        - asset: fonts/new_fonts/inter_bold_700.ttf
+          weight: 700
+
+    - family: inter_extra_bold
+      fonts:
+        - asset: fonts/new_fonts/inter_extra_bold.ttf
+          weight: 800
+
+    - family: inter_medium
+      fonts:
+        - asset: fonts/new_fonts/inter_medium.ttf
+          weight: 500
+
+    - family: inter_semi_bold
+      fonts:
+        - asset: fonts/new_fonts/inter_semi_bold.ttf
+          weight: 600
+
+
   # To add assets to your application, add an assets section, like this:
   # assets:
   #   - images/a_dot_burr.jpeg

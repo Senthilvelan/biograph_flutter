@@ -19,8 +19,8 @@ Future<void> _firebaseMessagingBackgroundHandler(RemoteMessage message) async {
 
 void main() async {
   WidgetsFlutterBinding.ensureInitialized();
-  await Firebase.initializeApp();
-  FirebaseMessaging.onBackgroundMessage(_firebaseMessagingBackgroundHandler);
+  // await Firebase.initializeApp();
+  // FirebaseMessaging.onBackgroundMessage(_firebaseMessagingBackgroundHandler);
   runApp(
       Sizer(
         builder: (context, orientation, deviceType) {
@@ -30,7 +30,7 @@ void main() async {
             initialRoute: Routes.splashPage,
             defaultTransition: Transition.fadeIn,
             getPages: AppPages.pages,
-            home: SplashPage(),
+            home:  SplashPage(),
             theme: ThemeData(
               dividerColor: Colors.transparent,
             ),

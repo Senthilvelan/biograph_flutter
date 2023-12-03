@@ -10,7 +10,7 @@ import '../../utils_res/string_helper.dart';
 class SplashController extends GetxController {
   @override
   void onInit() {
-    setChannel();
+    // setChannel();
     Future.delayed(const Duration(seconds: 3), () {
       navigatePage();
     });
@@ -19,6 +19,12 @@ class SplashController extends GetxController {
   }
 
   navigatePage() async {
+
+    Get.offAndToNamed(Routes.introScreen);
+
+
+    return;
+
     if (await StringHelper().getPreferenceSplash() == null) {
       Get.offAndToNamed(Routes.introScreen);
     } else {
