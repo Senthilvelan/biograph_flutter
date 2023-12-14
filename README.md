@@ -1,4 +1,4 @@
-# biograph
+# Sample app for login flutter getx
 
 Sample app for login, google login & registration with local storage (SP) for both android and iOS.
 
