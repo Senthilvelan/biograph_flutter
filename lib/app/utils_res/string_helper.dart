@@ -318,12 +318,12 @@ class StringHelper {
 
   //frndInvite
   Future setInvitedFrndUuidFromLink(String link) async {
-    if (link.contains("https://fitmint.io/?frnd_id=")) {
+    if (link.contains("https://fitsetgo.io/?frnd_id=")) {
       if (kDebugMode) {
         print("saving dynamicLinkData: $link");
       }
       String invited_frnd_uuid =
-      link.replaceAll("https://fitmint.io/?frnd_id=", "");
+      link.replaceAll("https://fitsetgo.io/?frnd_id=", "");
       if (kDebugMode) {
         print("invited_club_uuid $invited_frnd_uuid");
       }
@@ -359,12 +359,12 @@ class StringHelper {
 
   //clubInvite
   Future setInvitedClubUuidFromLink(String link) async {
-    if (link.contains("https://fitmint.io/?club_id=")) {
+    if (link.contains("https://fitsetgo.io/?club_id=")) {
       if (kDebugMode) {
         print("saving dynamicLinkData: $link");
       }
       String invited_club_uuid =
-      link.replaceAll("https://fitmint.io/?club_id=", "");
+      link.replaceAll("https://fitsetgo.io/?club_id=", "");
       if (kDebugMode) {
         print("invited_club_uuid $invited_club_uuid");
       }
@@ -400,12 +400,12 @@ class StringHelper {
 
   //referredByCode
   Future setReferredByCodeFromLink(String link) async {
-    if (link.contains("https://fitmint.io/?referral_code=")) {
+    if (link.contains("https://fitsetgo.io/?referral_code=")) {
       if (kDebugMode) {
         print("saving dynamicLinkData: $link");
       }
       String referral_code =
-      link.replaceAll("https://fitmint.io/?referral_code=", "");
+      link.replaceAll("https://fitsetgo.io/?referral_code=", "");
       if (kDebugMode) {
         print("referral_code $referral_code");
       }

@@ -50,7 +50,7 @@ class HttpServiceImpl implements HttpService {
       if (kDebugMode) print(url);
       Response response;
       dynamic headers = null;
-      if (url.contains("fitmint.io/api/") ||
+      if (url.contains("fitsetgo.io/api/") ||
           url.contains("oracle.fitx.tech/api/")) {
         if (kDebugMode) {
           print(

@@ -1,8 +1,9 @@
 # biograph
 
-biograph app for doc.
+Sample app for login, google login & registration with local storage (SP) for both android and iOS.
 
-## Getting Started
+
+## Getting Started GetX
 
 This project is a starting point for a Flutter application.
 

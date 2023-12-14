@@ -53,18 +53,18 @@ class DefaultFirebaseOptions {
     apiKey: 'AIzaSyCaD4MwP0PQCnfuoCJzYG9aFJKDdrRGejA',
     appId: '1:674663592285:android:d10deac5230fee6645f8b4',
     messagingSenderId: '674663592285',
-    projectId: 'fitmint-5b5d4',
-    storageBucket: 'fitmint-5b5d4.appspot.com',
+    projectId: 'fitsetgo-5b5d4',
+    storageBucket: 'fitsetgo-5b5d4.appspot.com',
   );
 
   static const FirebaseOptions ios = FirebaseOptions(
     apiKey: 'AIzaSyDTtSu14lZ6LSVGXXAgvgnmDCozzUa78YM',
     appId: '1:674663592285:ios:59067b7e3122b82b45f8b4',
     messagingSenderId: '674663592285',
-    projectId: 'fitmint-5b5d4',
-    storageBucket: 'fitmint-5b5d4.appspot.com',
+    projectId: 'fitsetgo-5b5d4',
+    storageBucket: 'fitsetgo-5b5d4.appspot.com',
     androidClientId: '674663592285-2cvh28ng43t8ml5hgk8tk3csm9ljq287.apps.googleusercontent.com',
     iosClientId: '674663592285-te93rh21ao35cr5sots3tjrrnbjml7q8.apps.googleusercontent.com',
-    iosBundleId: 'com.fitmint.app',
+    iosBundleId: 'com.fitsetgo.app',
   );
 }

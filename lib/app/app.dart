@@ -121,9 +121,9 @@ class App {
   static String deviceVersion = "";
   static String deviceManufacturer = "";
 
-  // static String BASE_URL = "https://api-qa.fitmint.io/api/";
+  // static String BASE_URL = "https://api-qa.fitsetgo.io/api/";
 
-  // static String BASE_URL = "https://api.fitmint.io/api/";
+  // static String BASE_URL = "https://api.fitsetgo.io/api/";
   static String BASE_URL = "https://oracle.fitx.tech/api/";
 
   static RxInt total_active_minutes_today = 0.obs;
@@ -135,7 +135,7 @@ class App {
   static String audioCueUuid = '';
 
   //TODO: For prod change the URL
-  // static String BASE_URL = "https://api-qa1.fitmint.io/api/";
+  // static String BASE_URL = "https://api-qa1.fitsetgo.io/api/";
   //
   // static RxString getCategory() {
   //   return App.playerData.category.obs;
@@ -306,8 +306,8 @@ class App {
   static String REFER_CUSTOMER_ID = "";
 
   //deeplink value`
-  static const String REFER_BASE_DEEP_LINK = "https://www.fitmint.io";
-  static const String REFER_BRAND_DOMAIN = "fitmint.onelink.me";
+  static const String REFER_BASE_DEEP_LINK = "https://www.fitsetgo.io";
+  static const String REFER_BRAND_DOMAIN = "fitsetgo.onelink.me";
   static const String REFER_IMAGE_URL = "";
 
   // static ModelViewer modelViewer = ModelViewer(src: "");
@@ -372,11 +372,11 @@ class App {
   static int challengersUserListCount = 0;
   //
   // static String challengersTermsConditionsLink =
-  //     "https://fitmint.freshdesk.com/support/solutions/articles/89000016692-challenges-t-cs";
+  //     "https://fitsetgo.freshdesk.com/support/solutions/articles/89000016692-challenges-t-cs";
   // static String challengersAdditionalFittLink =
-  //     "https://fitmint.freshdesk.com/support/solutions/articles/89000016695-how-are-additional-fitt-rewards-calculated-";
+  //     "https://fitsetgo.freshdesk.com/support/solutions/articles/89000016695-how-are-additional-fitt-rewards-calculated-";
   // static String challengersHowItWorksLink =
-  //     "https://fitmint.freshdesk.com/support/solutions/articles/89000016694-how-challenges-work-on-fitmint-";
+  //     "https://fitsetgo.freshdesk.com/support/solutions/articles/89000016694-how-challenges-work-on-fitsetgo-";
 
   // static Future<String?> getDeviceId() async {
   //   final DeviceInfoPlugin deviceInfoPlugin = DeviceInfoPlugin();

@@ -3,6 +3,7 @@ import 'dart:io';
 
 import 'package:flutter/foundation.dart';
 import 'package:flutter/material.dart';
+import 'package:flutter/services.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
 import 'package:get/get.dart';
 import 'package:lottie/lottie.dart';
@@ -13,6 +14,7 @@ import '../../utils/custom_button.dart';
 import '../../utils_res/color_helper.dart';
 import '../../utils_res/font_family.dart';
 import 'login_page_controller.dart';
+import 'package:pin_code_fields/pin_code_fields.dart';
 
 class LoginPage extends StatefulWidget {
   @override
@@ -123,7 +125,7 @@ class _LoginPageState extends State<LoginPage> with TickerProviderStateMixin {
                 //             )),
                 //         SizedBox(width: 8.w),
                 //         Text(
-                //           'fitmint',
+                //           'fitsetgo',
                 //           style: TextStyle(
                 //               fontSize: 28.sp,
                 //               fontFamily: FontFamily.MONO_SANS_EBW),
@@ -201,6 +203,43 @@ class _LoginPageState extends State<LoginPage> with TickerProviderStateMixin {
                                   height: 1.5,
                                   fontWeight: FontWeight.w400,
                                   fontFamily: FontFamily.ROBOTO,
+                                ),
+                              ),
+
+                              SizedBox(
+                                width: 320.w,
+                                child: PinCodeTextField(
+                                  length: 6,
+                                  keyboardType: TextInputType.numberWithOptions(
+                                    decimal: false,
+                                    signed: false,
+                                  ),
+                                  obscureText: false,
+                                  inputFormatters: [
+                                    FilteringTextInputFormatter.allow(
+                                      RegExp('[0-9]'),
+                                    ),
+                                  ],
+                                  animationType: AnimationType.fade,
+                                  textStyle: TextStyle(
+                                      color: primaryBlackColor,
+                                      fontFamily: FontFamily.N27,
+                                      fontSize: 24.sp),
+                                  pinTheme: PinTheme(
+                                    shape: PinCodeFieldShape.underline,
+                                    activeFillColor: Colors.white,
+                                    inactiveColor: secondaryBlackColor,
+                                    activeColor: primaryBlackColor,
+                                    selectedFillColor: categoryColor,
+                                  ),
+                                  // controller: textEditingController,
+                                  onCompleted: (v) {
+                                    // authController.verifyOtp(false);
+                                  },
+                                  onChanged: (value) {
+                                    // authController.validateForm(value);
+                                  },
+                                  appContext: context,
                                 ),
                               ),
 
